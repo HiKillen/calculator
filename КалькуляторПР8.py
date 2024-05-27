@@ -33,7 +33,7 @@ for (text, row, col) in buttons:
     button = tk.Button(root, text=text, width=5, height=3, command=lambda t=text: button_click(t))
     button.grid(row=row, column=col)
 
-# Кнопка "Рівно"
+# Кнопка "Дорівнює"
 equal_button = tk.Button(root, text='=', width=5, height=3, command=calculate)
 equal_button.grid(row=4, column=2)
 
